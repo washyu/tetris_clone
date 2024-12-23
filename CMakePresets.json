@@ -1,0 +1,17 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "my_presest",
+            "displayName": "GCC 13.2.0 x86_64-w64-mingw32",
+            "description": "Using compilers: C = C:\\Users\\washy\\scoop\\apps\\gcc\\current\\bin\\gcc.exe, CXX = C:\\Users\\washy\\scoop\\apps\\gcc\\current\\bin\\g++.exe",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "C:/Users/washy/scoop/apps/gcc/current/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "C:/Users/washy/scoop/apps/gcc/current/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}
